@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenair{
+    background: url(images/bg.jpg) center/cover;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+}
+header{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+}
+header img{
+    width: 10%;
+}
+header ul a{
+    color: white;
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+header ul li{
+    list-style: none;
+    font: 100;
+}
+.t1{
+    font-size: 8em;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.scrool{
+    width: 5%;
+}
